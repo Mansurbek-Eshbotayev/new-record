@@ -47,7 +47,7 @@ body{
 }
 
 .result{
-  color: white;
+  color: black;
  font-size: 25px;
   list-style: none;
   width: 200px;
@@ -61,8 +61,7 @@ body{
 }
 
 .result1, .result2, .result3, .result4, .result5, .result6, .result7, .result8, .result9{
-  font-size: 35px;
-  color: black;
+  font-size: 30px;
 }
 .btn{
   width: 55px;
@@ -103,5 +102,10 @@ body{
   padding: 20px;
   text-align: center;
   margin-top: 80px;
+}
+
+.span{
+  display: block;
+  color: black;
 }
 

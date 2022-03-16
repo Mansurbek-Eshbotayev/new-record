@@ -116,6 +116,7 @@ record.onresult = function(evt){
  
 
   var elSpan = document.createElement("span");
+  elSpan.classList.add("span")
   elResult1.appendChild(elSpan);
   
 }

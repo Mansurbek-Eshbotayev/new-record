@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  text-align: center;
+}
+
+.game{
+  display: block;
+}
+
+.container{
+  width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+.result{
+  list-style: none;
+  width: 200px;
+  height: 130px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+.btn{
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+

@@ -1,18 +1,33 @@
 *{
   box-sizing: border-box;
+  
 }
 
-.body{
+body{
   margin: 0;
   padding: 0;
+ 
+  background-image: url(../img/yellow-plastic-crosses-and-zeroches-for-playing-tic-tac-toe-on-a-blue-surface-concept-xo-win-challenge-educational-game-for-kids_164357-2715.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .title{
+  display: none;
+  color: black;
   text-align: center;
+}
+.titlee{
+  display: block;
+  text-align: center;
+  transition: all 1s ease;
 }
 
 .game{
-  display: block;
+  display: none;
+  margin-top: 60px;
+  transition: all 3s ease;
 }
 
 .container{
@@ -32,9 +47,11 @@
 }
 
 .result{
+  color: white;
+ font-size: 25px;
   list-style: none;
   width: 200px;
-  height: 130px;
+  height: 145px;
   background-color: blueviolet;
   border: 1px solid black;
   text-align: center;
@@ -43,9 +60,47 @@
   align-items: center;
 }
 
+.result1 .result2 .result3 .result4 .result5 .result6 .result7 .result8 .result9{
+  font-size: 35px;
+}
 .btn{
+  width: 55px;
+  height: 55px;
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+  background-image: url(../img/ooo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  
+}
+
+.ops{
+  opacity: 0.7;
+  
+}
+
+.bkred{
+  background-color: yellow;
+}
+
+.bkgreen{
+  background-color: greenyellow;
+}
+
+.text{
+  display: block;
+  margin: 0 auto;
+  color: red;
+  background-color: white;
+  font-size: 30px;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 80px;
 }
 
